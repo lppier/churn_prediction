@@ -17,6 +17,7 @@ train {
         NUM_LEAVES = "10"
         N_ESTIMATORS = "250"
         OUTPUT_MODEL_NAME = "lgb_model.pkl"
+        NEW_PARAMETERS = "new"
     }
 
     spark {
